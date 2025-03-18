@@ -12,7 +12,7 @@ labels = {0: "Conforme", 1: "Non conforme"}
 
 def main():
     st.title("Contrôle Qualité : Vis")
-    st.write("Cette application utilise un CNN pour diagnostiquer la qualité d'une vis.")
+    st.write("OkVisFactory est une application permettant diagnostiquer la qualité d'une vis.")
 
     uploaded_file = st.file_uploader("Chargez une image de vis (format .jpg/.png)...", type=["jpg", "jpeg", "png"])
 
