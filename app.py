@@ -5,7 +5,7 @@ import numpy as np
 
 # Chargement du modèle CNN sauvegardé
 model = tf.keras.models.load_model("mon_cnn.h5")
-IMG_SIZE = (150, 150)  # Doit correspondre à la taille utilisée lors de l'entraînement
+IMG_SIZE = (64, 64)  # Doit correspondre à la taille utilisée lors de l'entraînement
 
 # Dictionnaire de correspondance entre les indices et les classes
 labels = {0: "Conforme", 1: "Non conforme"}
